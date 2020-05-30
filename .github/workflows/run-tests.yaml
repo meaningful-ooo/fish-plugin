@@ -1,0 +1,29 @@
+name: Run tests
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+jobs:
+  test:
+    name: Test on fish ${{ matrix.fish_version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        fish_version: [
+          '2.3',
+          '2.4',
+          '2.5',
+          '2.6',
+          '2.7',
+          '3.0',
+          '3.1'
+        ]
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Test
+        run: docker-compose -f docker-compose.test.yml run test-on-fish-${{ matrix.fish_version }}
