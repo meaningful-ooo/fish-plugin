@@ -1,13 +1,13 @@
-# fish-package
+# fish-plugin
 
-This is an example of how to setup a fish package project.
+This is an example of how to setup a fish plugin project.
 
 ## Installation
 
 Install with [Fisher](https://github.com/jorgebucaran/fisher):
 
 ```fish
-fisher add andreiborisov/fish-package
+fisher add andreiborisov/fish-plugin
 ```
 
 ### System requirements
@@ -16,10 +16,10 @@ fisher add andreiborisov/fish-package
 
 ## Usage
 
-The package does nothing yet. Use this repo as a [GitHub template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or clone it manually:
+The plugin does nothing yet. Use this repo as a [GitHub template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or clone it manually:
 
 ```fish
-git clone git@github.com:andreiborisov/fish-package.git
+git clone git@github.com:andreiborisov/fish-plugin.git
 ```
 
 ## Testing

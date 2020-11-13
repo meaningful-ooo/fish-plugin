@@ -2,7 +2,7 @@ version: "3.7"
 
 x-test:
   &default-test
-  working_dir: /home/nemo/package
+  working_dir: /home/nemo/plugin
   command: fishtape test/*.test.fish
 
 x-build:
