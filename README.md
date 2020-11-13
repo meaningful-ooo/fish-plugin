@@ -7,7 +7,7 @@ This is an example of how to setup a fish plugin project.
 Install with [Fisher](https://github.com/jorgebucaran/fisher):
 
 ```fish
-fisher add andreiborisov/fish-plugin
+fisher install andreiborisov/fish-plugin
 ```
 
 ### System requirements
