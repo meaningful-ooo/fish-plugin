@@ -12,7 +12,7 @@ fisher install andreiborisov/fish-plugin
 
 ### System requirements
 
-* [fish](https://fishshell.com) 2.3+
+* [fish](https://fishshell.com) 3+
 
 ## Usage
 
@@ -32,7 +32,7 @@ To run them locally make sure you have [Docker](https://www.docker.com/products/
 docker-compose -f docker-compose.test.yml up
 ```
 
-This will run tests on each minor fish version starting from `2.3`.
+This will run tests on each minor fish version starting from `3.0`.
 
 Clean up intermediate containers after that with:
 

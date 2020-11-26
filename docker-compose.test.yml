@@ -10,36 +10,6 @@ x-build:
   context: .
 
 services:
-  test-on-fish-2.3:
-    << : *default-test
-    build:
-      <<: *default-build
-      args:
-        - FISH_VERSION=2.3
-  test-on-fish-2.4:
-    << : *default-test
-    build:
-      <<: *default-build
-      args:
-        - FISH_VERSION=2.4
-  test-on-fish-2.5:
-    << : *default-test
-    build:
-      <<: *default-build
-      args:
-        - FISH_VERSION=2.5
-  test-on-fish-2.6:
-    << : *default-test
-    build:
-      <<: *default-build
-      args:
-        - FISH_VERSION=2.6
-  test-on-fish-2.7:
-    << : *default-test
-    build:
-      <<: *default-build
-      args:
-        - FISH_VERSION=2.7
   test-on-fish-3.0:
     << : *default-test
     build:
