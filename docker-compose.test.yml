@@ -22,3 +22,9 @@ services:
       <<: *default-build
       args:
         - FISH_VERSION=3.1
+  test-on-fish-3.2:
+    << : *default-test
+    build:
+      <<: *default-build
+      args:
+        - FISH_VERSION=3.2
